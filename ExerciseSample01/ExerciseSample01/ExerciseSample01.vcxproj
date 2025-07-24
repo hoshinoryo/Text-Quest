@@ -127,11 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="battle.cpp" />
+    <ClCompile Include="command.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="map.cpp" />
     <ClCompile Include="monster.cpp" />
     <ClCompile Include="window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="battle.h" />
+    <ClInclude Include="command.h" />
+    <ClInclude Include="map.h" />
     <ClInclude Include="monster.h" />
     <ClInclude Include="window.h" />
   </ItemGroup>
